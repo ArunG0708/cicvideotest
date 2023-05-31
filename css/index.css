@@ -12,7 +12,7 @@
   .btn:focus{
     box-shadow: none;
   }
-  .btn{
+  .like-btn button{
     color: grey;
   }
   
