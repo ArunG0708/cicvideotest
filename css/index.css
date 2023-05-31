@@ -1,0 +1,195 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+   button{
+    cursor: pointer;
+    outline: 0;
+    color: #AAA;
+  
+  }
+  
+  .btn:focus{
+    box-shadow: none;
+  }
+  .btn{
+    color: grey;
+  }
+  
+  
+  span.addC {
+    display: inline; 
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+  .comment input{
+    width: 90%;
+  }
+  
+  .green{
+    color: black;
+  }
+  
+  .red{
+    color: black;
+  }
+
+.brand-section a{
+    display: inline;
+}
+.description{
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 2%;
+}
+#more{
+    display: none;
+}
+.title h4{
+    font-size: 20px;
+    padding-top: 7px;
+}
+.video-side-title a{
+    font-size: 14px;
+}
+.video-side-title{
+    line-height: 1.4;
+}
+.video-padg{
+    padding-right: 5px;
+     padding-left: 10px;
+}
+
+.video-side-post video{
+    height: 86px; border-radius: 10px;
+
+}
+.news-side-title a{
+    font-size: 14px;
+
+}
+.view-sec{
+    font-size: 11px;
+    color: gray; 
+}
+.subscrib{
+    font-size: 12px; color: grey; line-height: .4;
+    padding-left: 46px;
+}
+.search-tab input{
+    width: 74%;
+}
+#myBtn:hover{
+    color: #d80027;
+
+}
+.share{
+    background-color: #f2f2f2;
+     padding: 8px 12px 8px 12px; 
+     border-radius: 17px; margin-left: 7%;
+}
+
+@media(max-width:567px) {
+    .brand-section a span {
+      font-size: 12px;
+    
+    }
+    .title h4{
+        font-size: 17px;
+    }
+    .subscrib{
+        line-height: 1;
+        padding-left: 6px;
+        margin-bottom: 2px;
+    }
+    .search-tab input{
+        width: 71%;
+    }
+    .subs-btn{
+        float: right;
+    }
+    .like-btn{
+        margin-left: 6px;
+    
+    } 
+    .like-sec{
+        margin-top: 2%;
+    }
+    .comment input{
+        width: 84%;
+      }
+      .comment{
+        margin-top: 4%;
+      }
+     
+   
+}
+@media screen and (min-width: 576px)and (max-width: 992px)  {
+    .video-side-post video{
+        height:110px;
+         /* border-radius: 20px; */
+    
+    }
+    .news-side-title a{
+        font-size: 20px;
+
+    }
+    .view-sec{
+        font-size: 14px;
+      
+    }
+    .video-side-post{
+        margin-bottom: 8px;
+    }
+    .subscrib{
+        padding-left: 1px;
+
+    }
+    .video-side-title a{
+        font-size: 16px;
+    }
+   
+   
+}
+@media screen and (min-width: 993px)and (max-width: 1100px){
+ .nation-title{
+     font-size: 14px;
+  
+  }
+  .share{
+    padding: 10px 14px 10px 14px;
+    border-radius: 17px;
+    margin-left: 5%;
+   }
+
+.view-sec{
+    font-size: 10px;
+}
+.video-padg{
+    padding-right: 5px;
+     padding-left: 5px;
+}
+.video-side-title a{
+    font-size: 11px;
+}
+
+.news-side-title a {
+    font-size: 12px;
+}
+
+.comment input {
+    width: 85%;
+}
+.nation-title{
+    display: inline-block;
+     width: 180px;
+     white-space: nowrap;
+     overflow: hidden !important;text-overflow: ellipsis;
+     margin-top: 7px;
+}
+
+
+ }
+
