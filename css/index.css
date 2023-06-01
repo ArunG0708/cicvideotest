@@ -63,7 +63,8 @@
 }
 
 .video-side-post video{
-    height: 86px; border-radius: 10px;
+    /* height: 86px;  */
+    border-radius: 10px;
 
 }
 .news-side-title a{
