@@ -15,20 +15,14 @@
   .likeicon{
     color: grey;
   }
+
+  .brand-section a span {
+    font-size: 14px;
   
-  video::-webkit-media-controls-play-button,
-video::-webkit-media-controls-pause-button {
-    max-width: 3rem !important;
-    max-height: 3rem !important;
-}
+  }
   
   
-  /* span.addC {
-    display: inline; 
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-  } */
+
   .comment input{
     width: 90%;
   }
@@ -58,7 +52,8 @@ video::-webkit-media-controls-pause-button {
     padding-top: 7px;
 }
 .video-side-title a{
-    font-size: 14px;
+    font-size: 13px;
+    font-weight: 500;
 }
 .video-side-title{
     line-height: 1.4;
@@ -78,12 +73,13 @@ video::-webkit-media-controls-pause-button {
 
 }
 .view-sec{
-    font-size: 11px;
+    font-size: 10px;
     color: gray; 
 }
 .subscrib{
-    font-size: 12px; color: grey; line-height: .4;
-    padding-left: 46px;
+    font-size: 12px; color: grey;
+     line-height: .4;
+    padding-left: 34px;
 }
 .search-tab input{
     width: 74%;
