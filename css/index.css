@@ -8,7 +8,7 @@
     color: #AAA;
   
   }
-  
+ 
   .btn:focus{
     box-shadow: none;
   }
@@ -16,13 +16,19 @@
     color: grey;
   }
   
+  video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-pause-button {
+    max-width: 3rem !important;
+    max-height: 3rem !important;
+}
   
-  span.addC {
+  
+  /* span.addC {
     display: inline; 
     width: 100px;
     height: 100px;
     padding: 5px;
-  }
+  } */
   .comment input{
     width: 90%;
   }
