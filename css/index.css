@@ -20,8 +20,10 @@
     font-size: 14px;
   
   }
-  
-  
+  /* video::-webkit-media-controls {
+    display:none !important;
+} */
+
 
   .comment input{
     width: 90%;
