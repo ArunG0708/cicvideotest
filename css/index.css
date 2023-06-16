@@ -44,13 +44,13 @@
     background-color: #f2f2f2;
     border-radius: 12px;
     padding: 10px;
-    margin-top: 2%;
+    margin-top: 3%;
 }
 #more{
     display: none;
 }
 .title h4{
-    font-size: 20px;
+    font-size: 19px;
     padding-top: 7px;
 }
 .video-side-title a{
@@ -80,8 +80,8 @@
 }
 .subscrib{
     font-size: 12px; color: grey;
-     line-height: .4;
-    padding-left: 34px;
+     line-height: 1;
+    padding-left: 33px;
 }
 .search-tab input{
     width: 74%;
@@ -92,7 +92,7 @@
 }
 .share{
     background-color: #f2f2f2;
-     padding: 8px 12px 8px 12px; 
+     padding: 6px 12px 6px 12px; 
      border-radius: 17px; margin-left: 7%;
 }
 
@@ -158,13 +158,13 @@
    
    
 }
-@media screen and (min-width: 993px)and (max-width: 1100px){
+@media screen and (min-width: 993px)and (max-width: 1200px){
  .nation-title{
      font-size: 14px;
   
   }
   .share{
-    padding: 10px 14px 10px 14px;
+    padding: 6px 14px 6px 14px;
     border-radius: 17px;
     margin-left: 5%;
    }
@@ -183,17 +183,21 @@
 .news-side-title a {
     font-size: 12px;
 }
+.brand-section a span {
+    font-size: 13px;
+  
+  }
 
 .comment input {
     width: 85%;
 }
-.nation-title{
+/* .nation-title{
     display: inline-block;
      width: 180px;
      white-space: nowrap;
      overflow: hidden !important;text-overflow: ellipsis;
      margin-top: 7px;
-}
+} */
 
 
  }
