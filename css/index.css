@@ -75,7 +75,7 @@
 
 }
 .view-sec{
-    font-size: 10px;
+    font-size: 11px;
     color: gray; 
 }
 .subscrib{
@@ -100,6 +100,13 @@
     .brand-section a span {
       font-size: 12px;
     
+    }
+    .view-sec{
+        font-size: 10px;
+      
+    }
+    .title-earn{
+        line-height: 1.2;
     }
     .title h4{
         font-size: 17px;
@@ -132,11 +139,7 @@
    
 }
 @media screen and (min-width: 576px)and (max-width: 992px)  {
-    .video-side-post video{
-        height:110px;
-         /* border-radius: 20px; */
-    
-    }
+   
     .news-side-title a{
         font-size: 20px;
 
