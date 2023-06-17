@@ -1,6 +1,9 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+.container{
+    max-width: 1300px;
+}
 
    button{
     cursor: pointer;
@@ -148,6 +151,10 @@
         font-size: 14px;
       
     }
+    .brand-section a span {
+        font-size: 16px;
+      
+      }
     .video-side-post{
         margin-bottom: 8px;
     }
@@ -158,9 +165,13 @@
     .video-side-title a{
         font-size: 16px;
     }
+    .container{
+        max-width: 720px;
+    }
    
    
 }
+
 @media screen and (min-width: 993px)and (max-width: 1200px){
  .nation-title{
      font-size: 14px;
